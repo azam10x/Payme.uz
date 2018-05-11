@@ -1,0 +1,6 @@
+config = {
+    'merchantId': '5953ec87e8ce8437a196780c',
+    'login': 'Paycom',
+    'key': 'FbjmMfZmRVfscmT34o6fksRKjp0jwFKdq#ny'
+}
+account_params = {'order_id', 'customer_id'}

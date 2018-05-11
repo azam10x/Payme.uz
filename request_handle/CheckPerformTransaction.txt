@@ -1,0 +1,1 @@
+{'data': {'payload': {u'params': {u'amount': 5000, u'account': {u'order_id': u'22', u'customer_id': u'1'}}, u'jsonrpc': u'2.0', u'id': 436, u'method': u'CheckPerformTransaction'}}, 'method': 'CheckPerformTransaction'}
