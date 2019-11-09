@@ -1,2 +1,2 @@
 # paycom
-Payme.uzni Python va Django orqali integratsiya qilish
+Payme.uzni Python/Django orqali integratsiya qilish
