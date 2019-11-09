@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-from payment.models import *
-from orders.models import Order as OrderModel
+import os
+import json
+
 from .Request import Request
 from .Response import Response
 from .PaycomException import PaycomException
@@ -11,9 +12,8 @@ from .Format import Format
 from .conf import config
 from django.utils import timezone
 
-import os
-import json
-
+# Import your app's Order model
+from basic.models import Order as OrderModel
 
 class Application:
     method = None

@@ -13,8 +13,11 @@ class Request:
 
     def __init__(self, request):
         try:
-            payload = request.body.decode("utf-8")
-            self.payload = json.loads(payload)
+            # !!!!!!!!!!!!!! Uncomment if request.body exists and it contains binary text !!!!!!!!!!!!!!!!!!!!!
+            # payload = request.body.decode("utf-8")
+            # self.payload = json.loads(payload)
+            # !!!!!!!!!!!!!! Uncomment if request.data exists and it contains python dictionary !!!!!!!!!!!!!!!!!!!!!
+            # self.payload = request.data
             if self.payload is None:
                 PaycomException(None, message='ERROR INVALID JSON RPC OBJECT',
                                 code=PaycomException.ERROR_INVALID_JSON_RPC_OBJECT)

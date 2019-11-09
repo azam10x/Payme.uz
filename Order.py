@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-from orders.models import Order as OrderModel
 from .PaycomException import PaycomException
 from .Format import Format
 
+# Import your app's Order model
+from basic.models import Order as OrderModel
 
 class Order:
     STATE_AVAILABLE = 0
